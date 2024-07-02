@@ -20,5 +20,8 @@ int main(){
         }
     }
     printf("Heads %d, Tails: %d\n", count[0], count[1]);
+    if(count[0]>count[1]) printf("You won!\n");
+    else printf("You lose!\n");
+
     return 0;
 }
