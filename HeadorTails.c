@@ -2,6 +2,10 @@
 #include <stdlib.h>
 
 int main(){
+    char name[10];
+    printf("Who are you?\n");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
     printf("Tossing a coin...\n");
     int count[2];
     for(int i=0; i<2; i++){
